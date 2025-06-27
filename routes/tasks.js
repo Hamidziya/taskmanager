@@ -11,7 +11,7 @@ router.get('/',auth, async (req, res) => {
   res.json(tasks);
 });
 
-// POST a new task
+// POST a new task1
 router.post('/',auth, async (req, res) => {
     const { title, description, dueDate } = req.body;
   
